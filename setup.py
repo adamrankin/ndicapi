@@ -3,10 +3,10 @@ from distutils.core import setup, Extension
 
 module1 = Extension('polaris',
                     sources = [
-'ndicapi.c',
-'ndicapi_math.c',
-'ndicapi_serial.c',
-'ndicapi_thread.c',
+'ndicapi.cxx',
+'ndicapi_math.cxx',
+'ndicapi_serial.cxx',
+'ndicapi_thread.cxx',
 'polarismodule.c',
 ])
 
